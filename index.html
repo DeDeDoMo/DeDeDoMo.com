@@ -4,38 +4,133 @@
   <meta charset=utf-8 />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>DeDeDoMo: Deliberately-Decide-to-Document Month</title>
-  <meta name="description" content="" /> <!-- TODO: Desc -->
-  
+  <meta name="description" content="December is Deliberately-Decide-to-Document Month! Take some time to improve documentation within your organization." />
+  <link rel="canonical" content="https://dededomo.com/">
+<style>
+html, body {
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  font-size: calc(12px + 0.8vmin);
+  background: white none;
+  color: black;
+}
+html {
+  margin: 0;
+  padding: 1em;
+}
+body {
+  max-width: 38rem;
+  margin: 0 auto;
+  padding: 0;
+  line-height: 2;
+}
+
+h1, h2, h3, h4, p, dl, dd, dt {
+  margin: 0;
+  line-height: 2;
+}
+
+p + p,
+dd + dt {
+  margin-top: 1rem;
+}
+dt, strong, b {
+  font-weight: 600;
+}
+
+h1 { font-size: 2rem; font-weight: normal; }
+h3 { font-size: 1.25rem; font-weight: 600; letter-spacing: 0.04em; }
+
+code {
+  font-family: Menlo, "Deja Vu Sans Mono", "Bitstream Vera Sans Mono", Monaco, monospace;
+}
+
+button {
+  -webkit-appearance: none;
+  background: #333;
+  color: white;
+  font: inherit;
+  padding: 0 0.6em;
+  border-radius: 0.2em;
+  box-shadow: 0.2em 0.2em rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+button:active {
+  transform: translate(0.1em, 0.1em);
+  box-shadow: 0.1em 0.1em rgba(0,0,0,0.2);
+}
+/* anti-fuzz hack */
+button:focus:hover {
+  outline: none;
+}
+
+:link {
+  color: #24a;
+}
+:visited {
+  color: #51a;
+}
+:link:active {
+  color: #46c;
+}
+:visited:active {
+  color: #62c;
+}
+
+.space-above, .space {
+  margin-top: 2rem;
+}
+.space-below, .space {
+  margin-bottom: 2rem;
+}
+
+.site-footer {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+/* Serifs */
+.content-body p,
+.content-body dl,
+.content-body ol,
+.content-body ul {
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+}
+</style>
+
 </head>
 <body>
-  
-  <h1>December is DeDeDoMo!</h1>
-  
-  <p><strong>Deliberately-Decide-to-Document Month</strong>, or #DeDeDoMo, is a time to spend extra effort improving your organization’s written documentation. It recurs each December.</p>
-  
-  
-  
-  <h3>Frequently Asked Questions</h3>
-  
-  <dl>
-    <dt>How is DeDeDoMo pronounced?</dt>
-    <dd>Say “dee-dee-doh-moh,” exactly how it looks like it would be pronounced in English.</dd>
 
-    <dt>Does DeDeDoMo have anything to do with NaNoWriMo?</dt>
-    <dd>Not really! NaNoWriMo is National Novel Writing Month, the time of year (November) when aspiring authors make a concentrated effort to write a novel. This popular phenomenon inspired DeDeDoMo in concept, name, and decentralized nature. There is no other affiliation.</dd>
+  <article class="content-body">
+    <h1>December is DeDeDoMo!</h1>
 
-    <dt>Who is behind this?</dt>
-    <dd>DeDeDoMo is decentralized and owned by its participants. This website <a href="https://github.com/orgs/DeDeDoMo/people">is maintained by these people</a> with <a href="https://github.com/DeDeDoMo/DeDeDoMo.com/graphs/contributors">these contributors</a>.</dd>
+    <p class="space"><strong>Deliberately-Decide-to-Document Month</strong>, or #DeDeDoMo, is a time to spend extra effort improving your organization’s written documentation. It recurs each December.</p>
 
-    <!--
-    <dt></dt>
-    <dd></dd>
-    
-    -->
-    
-  </dl>
-  
-  <footer>
+
+
+    <section class="space">
+      <h3 class="space">Frequently Asked Questions</h3>
+
+      <dl>
+        <dt>How is DeDeDoMo pronounced?</dt>
+        <dd>Say “dee-dee-doh-moh,” exactly how it looks like it would be pronounced in English.</dd>
+
+        <dt>Does DeDeDoMo have anything to do with NaNoWriMo?</dt>
+        <dd>Not really! NaNoWriMo is National Novel Writing Month, the time of year (November) when aspiring authors make a concentrated effort to write a novel. This popular phenomenon inspired DeDeDoMo in concept, name, and decentralized nature. There is no other affiliation.</dd>
+
+        <dt>Who is behind this?</dt>
+        <dd>DeDeDoMo is decentralized and owned by its participants. This website <a href="https://github.com/orgs/DeDeDoMo/people">is maintained by these people</a> with <a href="https://github.com/DeDeDoMo/DeDeDoMo.com/graphs/contributors">these contributors</a>.</dd>
+
+        <!--
+        <dt></dt>
+        <dd></dd>
+
+        -->
+      </dl>
+    </div>
+  </article>
+
+  <footer class="site-footer space-above">
     <p>This website is open source with an MIT license. Suggest improvements <a href="https://github.com/DeDeDoMo/DeDeDoMo.com">via GitHub</a>.
     </p>
   </footer>
